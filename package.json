@@ -1,0 +1,42 @@
+{
+  "name": "electron_application_example",
+  "version": "1.0.0",
+  "description": "This is an Electron Application example for use in Replit",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "electron-forge start",
+    "package": "electron-forge package",
+    "make": "electron-forge make",
+    "publish": "electron-forge publish",
+    "lint": "echo \"No linting configured\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Aviator2276/Electron_Application_Example.git"
+  },
+  "keywords": [
+    "Electron",
+    "Replit"
+  ],
+  "author": {
+    "name": "Aviator2276",
+    "email": "91645065+Aviator2276@users.noreply.github.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Aviator2276/Electron_Application_Example/issues"
+  },
+  "homepage": "https://github.com/Aviator2276/Electron_Application_Example#readme",
+  "dependencies": {
+    "electron-squirrel-startup": "^1.0.0"
+  },
+  "devDependencies": {
+    "@electron-forge/cli": "^6.4.2",
+    "@electron-forge/maker-deb": "^6.4.2",
+    "@electron-forge/maker-rpm": "^6.4.2",
+    "@electron-forge/maker-squirrel": "^6.4.2",
+    "@electron-forge/maker-zip": "^6.4.2",
+    "@electron-forge/plugin-auto-unpack-natives": "^6.4.2",
+    "electron": "27.0.2"
+  }
+}

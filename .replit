@@ -1,0 +1,3 @@
+run = "electron . --no-sandbox"
+
+onBoot = "npm install"
